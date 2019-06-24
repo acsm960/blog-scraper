@@ -1,0 +1,7 @@
+app:
+  build: .
+  volumes:
+    - "$PWD:/usr/src/app"
+    # - "$HOME:/home"
+  ports:
+      - "80:80"
